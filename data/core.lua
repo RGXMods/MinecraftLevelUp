@@ -9,7 +9,7 @@ local RGX = assert(_G.RGXFramework, "MCLU: RGX-Framework not loaded")
 
 MCLU = MCLU or {}
 
-local ADDON_VERSION = "2.0.2"
+local ADDON_VERSION = "2.0.4"
 local ADDON_NAME = "MinecraftLevelUp"
 local PREFIX = "|Tinterface/addons/MinecraftLevelUp/media/icon:16:16|t - |cffffffff[|r|cff629539MCLU|r|cffffffff]|r "
 local TITLE = "|Tinterface/addons/MinecraftLevelUp/media/icon:18:18|t [|cff629539M|r|cffffffffinecraft|r |cff629539L|r|cffffffffevel|r |cff629539U|r|cff629539p|r|cff629539!|r]"

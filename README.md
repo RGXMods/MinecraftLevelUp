@@ -42,12 +42,15 @@ MCLU does not alter leveling, experience gains, UI frames, or game data. It only
 
 | WoW flavor | TOC | Interface |
 |---|---|---:|
-| Retail | `MinecraftLevelUp.toc` | `120007` |
-| Wrath Classic | `MinecraftLevelUp_Wrath.toc` | `30403` |
-| Burning Crusade Classic | `MinecraftLevelUp_TBC.toc` | `20504` |
-| Classic Era | `MinecraftLevelUp_Vanilla.toc` | `11500` |
+| Retail | `MinecraftLevelUp.toc` | `120100` |
+| WoW Forever (Beta) | `MinecraftLevelUp_Forever.toc` | `16001` |
+| Mists of Pandaria Classic | `MinecraftLevelUp_Mists.toc` | `50504` |
+| Cataclysm Classic | `MinecraftLevelUp_Cata.toc` | `40402` |
+| Wrath Classic | `MinecraftLevelUp_Wrath.toc` | `38002` |
+| Burning Crusade Classic | `MinecraftLevelUp_TBC.toc` | `20506` |
+| Classic Era | `MinecraftLevelUp_Vanilla.toc` | `11509` |
 
-These values describe the preserved release metadata. The addon is deprecated, so they are not a promise of compatibility with later game clients.
+These values describe the current release metadata. The addon is deprecated, so they are not a promise of compatibility with later game clients.
 
 ***
 

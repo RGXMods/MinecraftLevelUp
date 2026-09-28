@@ -1,9 +1,11 @@
-## Interface: 11500
-## Version: 2.0.1
+﻿## Interface: 11509
+## Version: 2.0.4
 ## Title:  |cff808bf4Minecraft|r Level Up|cff808bf4!|r
 ## Notes:  Play a Minecraft-inspired level-up sound!  |n|r  |cff808bf4By DonnieDice|r
-## IconTexture: Interface\AddOns\MinecraftLevelUp\media\icon
+## IconTexture: Interface\AddOns\MinecraftLevelUp\media\icon.tga
 ## Author: DonnieDice
+## Category: RGX
+## Group: RGX
 ## SavedVariables: MCLUSettings
 ## RequiredDeps: RGX-Framework
 
