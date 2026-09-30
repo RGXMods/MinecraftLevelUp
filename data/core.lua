@@ -49,9 +49,9 @@ print(PREFIX .. " " .. (L["HELP_HEADER"] or ""))
 print(PREFIX .. " " .. (L["HELP_TEST"] or ""))
 print(PREFIX .. " " .. (L["HELP_ENABLE"] or ""))
 print(PREFIX .. " " .. (L["HELP_DISABLE"] or ""))
-print(PREFIX .. " |cffffffff/mclu high|r - Use high quality sound")
-print(PREFIX .. " |cffffffff/mclu med|r - Use medium quality sound")
-print(PREFIX .. " |cffffffff/mclu low|r - Use low quality sound")
+print(PREFIX .. " " .. (L["HELP_HIGH"] or ""))
+print(PREFIX .. " " .. (L["HELP_MEDIUM"] or ""))
+print(PREFIX .. " " .. (L["HELP_LOW"] or ""))
 end
 
 local function HandleSlashCommand(args)
@@ -112,6 +112,6 @@ end, "MCLU_PLAYER_LOGOUT")
 RGX:RegisterSlashCommand("mclu", function(msg)
 local ok, err = pcall(HandleSlashCommand, msg)
 if not ok then
-print(PREFIX .. " |cffff0000MCLU Error:|r " .. tostring(err))
+print(PREFIX .. " " .. (L["ERROR_PREFIX"] or "") .. " " .. tostring(err))
 end
 end, "MCLU_SLASH")

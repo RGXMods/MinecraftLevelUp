@@ -83,6 +83,14 @@ The initial defaults are enabled, medium quality, Master-channel playback, defau
 
 ***
 
+## <span style="color: #629539;">🌐 Language Support</span>
+
+All chat output, help text, and the login welcome message are localized. The addon ships translations for every supported WoW client language: **enUS** (base), **deDE**, **esES**, **esMX**, **frFR**, **itIT**, **koKR**, **ptBR**, **ptPT**, **ruRU**, **zhCN**, and **zhTW**. Any client language without a dedicated translation falls back to the enUS strings, so no untranslated key ever leaks into the chat.
+
+Slash-command names (`/mclu`, `/mclu help`, `/mclu test`, and the `high`/`med`/`low` variant arguments) and sound-channel names (`Master`, `SFX`, `Music`, `Ambience`) remain in English on every client, matching the game's own command and channel behavior. The Spanish locales share one translation set: esES and esMX use the same strings, which cover both regional variants of Spanish.
+
+***
+
 ## <span style="color: #629539;">🧩 Files and Runtime</span>
 
 - `data/locales.lua` defines chat and welcome text.

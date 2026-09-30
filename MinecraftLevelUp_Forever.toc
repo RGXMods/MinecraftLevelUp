@@ -13,6 +13,7 @@
 ## X-Website: https://github.com/RGXMods/MinecraftLevelUp
 ## X-Curse-Project-ID: 594151
 ## X-Wago-ID: vEGP4OG1
+## X-Localizations: enUS, deDE, esES, esMX, frFR, itIT, koKR, ptBR, ptPT, ruRU, zhCN, zhTW
 
 data\locales.lua
 data\core.lua
