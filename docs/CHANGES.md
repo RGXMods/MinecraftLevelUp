@@ -1,3 +1,8 @@
+## v2.0.8 - 2026-11-05
+
+- Fixed the release package so Wago accepts the upload (2.0.7 reached CurseForge, GitHub and WoWInterface but not Wago).
+- No gameplay changes.
+
 ## v2.0.7 - 2026-11-05
 
 - Fixed WoW Forever: the base TOC now declares Interface 16001, which is what the Forever client reads, so the addon loads as compatible instead of out of date.
